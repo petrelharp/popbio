@@ -23,17 +23,23 @@ We'll do a lot of work (simulation, plotting) in jupyter notebooks.
 Towards the end we'll also start using the individual-based simulator [SLiM](https://messerlab.org/slim/),
 which takes care of a lot of messy details for us.
 
+**Jupyter notebooks:**
+You can find these in [notebooks/](notebooks/).
+
 ## Schedule:
 
 Day 1 (Wednesday, 1/30) - individual-based models
 
-: Building and visualizing individual-based models: 
-    logistic population growth and predator-prey relationships.
+: Building and visualizing individual-based models; finding means and variances;
+    differential equation limits.
+    Example: exponential, logistic population growth.
+
+    - [notebook](notebooks/lecture_01.ipynb)
 
 Day 2 (Friday, 2/1) - taking the limit
 
-: Find the mean and variance of population changes in individual-based models,
-    use these to obtain the large-populataion-size deterministic models.
+: Building and visualizing individual-based models: more variables.
+    Example: predator-prey models.
 
 Day 3 (Monday, 2/4) - behaviors of one-dimensional systems
 
