@@ -36,14 +36,16 @@ Day 1 (Wednesday, 1/30) - individual-based models
 
     - [notebook](notebooks/lecture_01.ipynb)
 
-Day 2 (Friday, 2/1) - taking the limit
+Day 2 (Friday, 2/1) - taking the limit with one-dimensional systems
+
+: The (deterministic) logistic model: stability, cycles, and chaos.
+
+    - [notebook](notebooks/lecture_01.ipynb) (continued from before)
+
+Day 3 (Monday, 2/4) - higher dimensions
 
 : Building and visualizing individual-based models: more variables.
     Example: predator-prey models.
-
-Day 3 (Monday, 2/4) - behaviors of one-dimensional systems
-
-: The (deterministic) logistic model: stability, cycles, and chaos.
 
 Day 4 (Wednesday, 2/6) - not everyone is the same
 
