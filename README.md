@@ -42,10 +42,12 @@ Day 2 (Friday, 2/1) - taking the limit with one-dimensional systems
 
     - [notebook](notebooks/lecture_01.ipynb) (continued from before)
 
-Day 3 (Monday, 2/4) - higher dimensions
+Day 3 (Monday, 2/4) - Differential equations, and higher dimensions
 
 : Building and visualizing individual-based models: more variables.
-    Example: predator-prey models.
+    Example: Lotka-Volterra dynamics
+
+    - [notebook](notebooks/lecture_02.ipynb)
 
 Day 4 (Wednesday, 2/6) - not everyone is the same
 
