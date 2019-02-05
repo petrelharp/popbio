@@ -26,6 +26,10 @@ which takes care of a lot of messy details for us.
 **Jupyter notebooks:**
 You can find these in [notebooks/](notebooks/).
 
+**Instructor:**
+Peter Ralph (plr@uoregon.edu) -- office hours as discussed in class
+or by appointment, 270 Onyx Bridge.
+
 ## Schedule:
 
 Day 1 (Wednesday, 1/30) - individual-based models
@@ -82,3 +86,28 @@ Day 10 (Monday, 2/19) - range expansions
 : Translating what we know about nonspatial systems
     to construct a two-population spatial model
     of invasion and coexistence.
+
+## Prerequisites:
+
+None, but students should be comfortable with algebra and the basics of calculus,
+and either have some experience with programming or be ready to jump in with both feet.
+
+## Inclusion and accessibility
+
+I would like to know your preferred pronouns and name,
+especially if it differs from the class roster.
+I take seriously my responsibility to create inclusive learning environments.
+Please notify me if there are aspects of the instruction or design of this
+course that result in barriers to your participation! You are also encouraged
+to contact the Accessible Education Center in 164 Oregon Hall at 541-346-1155
+or uoaec@uoregon.edu.
+
+I am committed to making our classroom an inclusive and respectful learning space.
+Being respectful includes using preferred pronouns for your classmates.
+Your classmates come from a diverse set of backgrounds and experiences;
+please avoid assumptions or stereotypes, and aim for inclusivity.
+Let us know if there are classroom dynamics that impede your (or someone else’s) full engagement. 
+
+Please see [this page](policies.html) for more information on
+campus resources, academic integrity, discrimination, and harassment (and reporting of it).
+
