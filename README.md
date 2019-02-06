@@ -53,13 +53,17 @@ Day 3 (Monday, 2/4) - Differential equations, and higher dimensions
 
     - [notebook](notebooks/lecture_02.ipynb)
 
-Day 4 (Wednesday, 2/6) - not everyone is the same
+Day 4 (Wednesday, 2/6) - more model building
 
-: Linear algebra to concisely describe stage-structured linear population models.
+: Isoclines, and more on building multidimensional models.
+    Example: SI (susceptible-infected) models.
 
-Day 5 (Friday, 2/9) - eigenpopulations
+    - [notebook](notebooks/lecture_02.ipynb) (continued from before)
 
-: Linear algebra for linear models: using eigenvalues and eigenvectors to completely
+Day 5 (Friday, 2/9) - Linear algebra and eigenpopulations
+
+: Linear algebra to concisely describe stage-structured linear population models;
+    using eigenvalues and eigenvectors to completely
     understand stage-structured population models.
 
 Day 6 (Monday, 2/12) - local analysis
