@@ -66,6 +66,8 @@ Day 5 (Friday, 2/9) - Linear algebra and eigenpopulations
     using eigenvalues and eigenvectors to completely
     understand stage-structured population models.
 
+    - [notebook](notebooks/lecture_03.ipynb)
+
 Day 6 (Monday, 2/12) - local analysis
 
 : General behaviors for more-than-one-dimensional systems:
