@@ -53,30 +53,34 @@ Day 3 (Monday, 2/4) - Differential equations, and higher dimensions
 
     - [notebook](notebooks/lecture_02.ipynb)
 
-Day 4 (Wednesday, 2/6) - more model building
+Day 4 (Wednesday, 2/6) - multidimensional model building
 
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
     - [notebook](notebooks/lecture_02.ipynb) (continued from before)
 
-Day 5 (Friday, 2/9) - Linear algebra and eigenpopulations
+Day 5 (Friday, 2/9) - the SI model, and intro to stage-structured models
 
-: Linear algebra to concisely describe stage-structured linear population models;
+: Building a SI model, introduction to juvenile-adult model.
+
+    - [notebook](notebooks/lecture_02.ipynb) (continued from before)
+    - and [notebook](notebooks/lecture_03.ipynb)
+
+Day 6 (Monday, 2/12) - linear algebra and stage-structured models.
+
+Linear algebra to concisely describe stage-structured linear population models;
     using eigenvalues and eigenvectors to completely
     understand stage-structured population models.
 
     - [notebook](notebooks/lecture_03.ipynb)
 
-Day 6 (Monday, 2/12) - local analysis
-
-: General behaviors for more-than-one-dimensional systems:
-    using locally linear approximations to understand
-    the local behavior of systems.
-
-Day 7 (Wednesday, 2/14) - equilibria and stability
+Day 7 (Wednesday, 2/14) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
+    General behaviors for more-than-one-dimensional systems:
+    using locally linear approximations to understand
+    the local behavior of systems.
 
 Day 8 (Wednesday, 2/14) - adding back randomness
 
