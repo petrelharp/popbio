@@ -60,38 +60,33 @@ Day 4 (Wednesday, 2/6) - multidimensional model building
 
     - [notebook](notebooks/lecture_02.ipynb) (continued from before)
 
-Day 5 (Friday, 2/9) - the SI model, and intro to stage-structured models
+Day 5 (Friday, 2/8) - the SI model, and intro to stage-structured models
 
 : Building a SI model, introduction to juvenile-adult model.
 
     - [notebook](notebooks/lecture_02.ipynb) (continued from before)
     - and [notebook](notebooks/lecture_03.ipynb)
 
-Day 6 (Monday, 2/12) - linear algebra and stage-structured models.
+Day 6 (Monday, 2/11) - linear algebra and stage-structured models.
 
-Linear algebra to concisely describe stage-structured linear population models;
+: Linear algebra to concisely describe stage-structured linear population models;
     using eigenvalues and eigenvectors to completely
     understand stage-structured population models.
 
     - [notebook](notebooks/lecture_03.ipynb)
 
-Day 7 (Wednesday, 2/14) - local analysis; equilibria and stability
+Day 7 (Wednesday, 2/13) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
     General behaviors for more-than-one-dimensional systems:
     using locally linear approximations to understand
     the local behavior of systems.
 
-Day 8 (Wednesday, 2/14) - adding back randomness
-
-: What does the behavior of a deterministic model tell you about the random model
-    that it's approximating? Simulation and heuristic methods.
-
-Day 9 (Friday, 2/16) - spatial models in SLiM
+Day 9 (Friday, 2/15) - spatial models in SLiM
 
 : How to implement a spatial model in [SLiM](https://messerlab.org/slim/).
 
-Day 10 (Monday, 2/19) - range expansions
+Day 10 (Monday, 2/18) - range expansions
 
 : Translating what we know about nonspatial systems
     to construct a two-population spatial model
