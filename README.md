@@ -82,15 +82,19 @@ Day 7 (Wednesday, 2/13) - local analysis; equilibria and stability
     using locally linear approximations to understand
     the local behavior of systems.
 
-Day 9 (Friday, 2/15) - spatial models in SLiM
+Day 8 (Friday, 2/15) - spatial models in SLiM
 
 : How to implement a spatial model in [SLiM](https://messerlab.org/slim/).
 
-Day 10 (Monday, 2/18) - range expansions
+Day 9 (Monday, 2/18) - spatial demographics
 
-: Translating what we know about nonspatial systems
-    to construct a two-population spatial model
-    of invasion and coexistence.
+: Translating what we know about equilibria and dynamics to spatial models
+
+Day 10 (Wednesday, 2/20) - range expansions
+
+: Parameterizing and building a range expansion in SLiM;
+    mean wave speed
+
 
 ## Prerequisites:
 
