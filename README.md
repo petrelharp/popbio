@@ -39,12 +39,14 @@ Day 1 (Wednesday, 1/30) - individual-based models
     Example: exponential, logistic population growth.
 
     - [notebook](notebooks/lecture_01.ipynb)
+    - [html](notebooks/lecture_01.html)
 
 Day 2 (Friday, 2/1) - taking the limit with one-dimensional systems
 
 : The (deterministic) logistic model: stability, cycles, and chaos.
 
     - [notebook](notebooks/lecture_01.ipynb) (continued from before)
+    - [html](notebooks/lecture_01.html)
 
 Day 3 (Monday, 2/4) - Differential equations, and higher dimensions
 
@@ -52,6 +54,7 @@ Day 3 (Monday, 2/4) - Differential equations, and higher dimensions
     Example: Lotka-Volterra dynamics
 
     - [notebook](notebooks/lecture_02.ipynb)
+    - [html](notebooks/lecture_02.html)
 
 Day 4 (Wednesday, 2/6) - multidimensional model building
 
@@ -59,6 +62,7 @@ Day 4 (Wednesday, 2/6) - multidimensional model building
     Example: SI (susceptible-infected) models.
 
     - [notebook](notebooks/lecture_02.ipynb) (continued from before)
+    - [html](notebooks/lecture_02.html)
 
 Day 5 (Friday, 2/8) - the SI model, and intro to stage-structured models
 
@@ -66,6 +70,7 @@ Day 5 (Friday, 2/8) - the SI model, and intro to stage-structured models
 
     - [notebook](notebooks/lecture_02.ipynb) (continued from before)
     - and [notebook](notebooks/lecture_03.ipynb)
+    - [html](notebooks/lecture_03.html)
 
 Day 6 (Monday, 2/11) - linear algebra and stage-structured models.
 
@@ -74,6 +79,7 @@ Day 6 (Monday, 2/11) - linear algebra and stage-structured models.
     understand stage-structured population models.
 
     - [notebook](notebooks/lecture_03.ipynb)
+    - [html](notebooks/lecture_03.html)
 
 Day 7 (Wednesday, 2/13) - local analysis; equilibria and stability
 
@@ -82,19 +88,29 @@ Day 7 (Wednesday, 2/13) - local analysis; equilibria and stability
     using locally linear approximations to understand
     the local behavior of systems.
 
-Day 8 (Friday, 2/15) - spatial models in SLiM
+    - [notebook](notebooks/lecture_03.ipynb) (continued from before)
+    - [html](notebooks/lecture_03.html)
 
-: How to implement a spatial model in [SLiM](https://messerlab.org/slim/).
+Day 8 (Friday, 2/15) - Modeling in SLiM
+
+: How to use [SLiM](https://messerlab.org/slim/) for simulations.
+
+    - [notebook](notebooks/slim_intro.ipynb)
+    - [html](notebooks/slim_intro.html)
 
 Day 9 (Monday, 2/18) - spatial demographics
 
-: Translating what we know about equilibria and dynamics to spatial models
+: How to implement a spatial model in SLiM.
+
+    - [notebook](notebooks/space_with_slim.ipynb)
+    - [html](notebooks/space_with_slim.html)
 
 Day 10 (Wednesday, 2/20) - range expansions
 
-: Parameterizing and building a range expansion in SLiM;
-    mean wave speed
+: Species interactions in SLiM: predator-prey models
 
+    - [notebook](notebooks/space_with_slim.ipynb) (continued from before)
+    - [html](notebooks/space_with_slim.html)
 
 ## Prerequisites:
 
