@@ -32,85 +32,59 @@ or by appointment, 270 Onyx Bridge.
 
 ## Schedule:
 
-Day 1 (Wednesday, 1/30) - individual-based models
+Day 1 (Friday, 1/31) - individual-based models
 
 : Building and visualizing individual-based models; finding means and variances;
     differential equation limits.
     Example: exponential, logistic population growth.
 
-- [notebook](notebooks/lecture_01.ipynb)
-- [html](notebooks/lecture_01.html)
+- [notebook](notebooks/individual_models.ipynb)
+- [html](notebooks/individual_models.html)
 
-Day 2 (Friday, 2/1) - taking the limit with one-dimensional systems
+Day 2 (Monday, 2/3) - taking the limit with one-dimensional systems
 
 : The (deterministic) logistic model: stability, cycles, and chaos.
 
-- [notebook](notebooks/lecture_01.ipynb) (continued from before)
-- [html](notebooks/lecture_01.html)
-
-Day 3 (Monday, 2/4) - Differential equations, and higher dimensions
+Day 3 (Wednesday, 2/5) - Differential equations, and higher dimensions
 
 : Building and visualizing individual-based models: more variables.
     Example: Lotka-Volterra dynamics
 
-- [notebook](notebooks/lecture_02.ipynb)
-- [html](notebooks/lecture_02.html)
-
-Day 4 (Wednesday, 2/6) - multidimensional model building
+Day 4 (Friday, 2/7) - multidimensional model building
 
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
-- [notebook](notebooks/lecture_02.ipynb) (continued from before)
-- [html](notebooks/lecture_02.html)
-
-Day 5 (Friday, 2/8) - the SI model, and intro to stage-structured models
+Day 5 (Monday, 2/10) - the SI model, and intro to stage-structured models
 
 : Building a SI model, introduction to juvenile-adult model.
 
-- [notebook](notebooks/lecture_02.ipynb) (continued from before)
-- and [notebook](notebooks/lecture_03.ipynb)
-- [html](notebooks/lecture_03.html)
-
-Day 6 (Monday, 2/11) - linear algebra and stage-structured models.
+Day 6 (Wednesday, 2/12) - linear algebra and stage-structured models.
 
 : Linear algebra to concisely describe stage-structured linear population models;
     using eigenvalues and eigenvectors to completely
     understand stage-structured population models.
 
-- [notebook](notebooks/lecture_03.ipynb)
-- [html](notebooks/lecture_03.html)
-
-Day 7 (Wednesday, 2/13) - local analysis; equilibria and stability
+Day 7 (Friday, 2/14) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
     General behaviors for more-than-one-dimensional systems:
     using locally linear approximations to understand
     the local behavior of systems.
 
-- [notebook](notebooks/lecture_03.ipynb) (continued from before)
-- [html](notebooks/lecture_03.html)
-
-Day 8 (Friday, 2/15) - Modeling in SLiM
+Day 8 (Monday, 2/17) - Modeling in SLiM
 
 : How to use [SLiM](https://messerlab.org/slim/) for simulations.
 
-- [notebook](notebooks/slim_intro.ipynb)
-- [html](notebooks/slim_intro.html)
-
-Day 9 (Monday, 2/18) - spatial demographics
+Day 9 (Wednesday, 2/19) - spatial demographics
 
 : How to implement a spatial model in SLiM.
 
-- [notebook](notebooks/space_with_slim.ipynb)
-- [html](notebooks/space_with_slim.html)
-
-Day 10 (Wednesday, 2/20) - range expansions
+Day 10 (Friday, 2/21) - range expansions
 
 : Species interactions in SLiM: predator-prey models
 
-- [notebook](notebooks/space_with_slim.ipynb) (continued from before)
-- [html](notebooks/space_with_slim.html)
+[Here](notebooks/2019/schedule_2019.html) are notebooks from last time this course was taught.
 
 ## Prerequisites:
 
