@@ -58,6 +58,8 @@ Day 4 (Monday, 3/1) - multidimensional model building
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
+- [notebook](notebooks/species_interactions.ipynb)
+
 Day 5 (Wednesday, 3/3) - the SI model, and intro to stage-structured models
 
 : Building a SI model, introduction to juvenile-adult model.
