@@ -39,16 +39,19 @@ Day 1 (Monday, 2/22) - individual-based models
     Example: exponential, logistic population growth.
 
 - [notebook](notebooks/individual_models.ipynb)
-- [html](notebooks/individual_models.html)
 
 Day 2 (Wednesday, 2/24) - taking the limit with one-dimensional systems
 
 : The (deterministic) logistic model: stability, cycles, and chaos.
 
+- (continued from Day 1)
+
 Day 3 (Friday, 2/26) - Differential equations, and higher dimensions
 
 : Building and visualizing individual-based models: more variables.
     Example: Lotka-Volterra dynamics
+
+- [notebook](notebooks/diff_eqns.ipynb)
 
 Day 4 (Monday, 3/1) - multidimensional model building
 
