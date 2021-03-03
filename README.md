@@ -64,6 +64,8 @@ Day 5 (Wednesday, 3/3) - the SI model, and intro to stage-structured models
 
 : Building a SI model, introduction to juvenile-adult model.
 
+- [notebook](notebooks/structured_populations.ipynb)
+
 Day 6 (Friday, 3/5) - linear algebra and stage-structured models.
 
 : Linear algebra to concisely describe stage-structured linear population models;
