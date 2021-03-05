@@ -60,17 +60,19 @@ Day 4 (Monday, 3/1) - multidimensional model building
 
 - [notebook](notebooks/species_interactions.ipynb)
 
-Day 5 (Wednesday, 3/3) - the SI model, and intro to stage-structured models
+Day 5 (Wednesday, 3/3) - More on species interactions
 
 : Building a SI model, introduction to juvenile-adult model.
 
-- [notebook](notebooks/structured_populations.ipynb)
+- (continued from Day 4)
 
 Day 6 (Friday, 3/5) - linear algebra and stage-structured models.
 
 : Linear algebra to concisely describe stage-structured linear population models;
     using eigenvalues and eigenvectors to completely
     understand stage-structured population models.
+
+- [notebook](notebooks/structured_populations.ipynb)
 
 Day 7 (Monday, 3/8) - local analysis; equilibria and stability
 
