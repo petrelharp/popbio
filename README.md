@@ -74,26 +74,21 @@ Day 6 (Friday, 3/5) - linear algebra and stage-structured models.
 
 - [notebook](notebooks/structured_populations.ipynb)
 
-Day 7 (Monday, 3/8) - local analysis; equilibria and stability
+Day 7 (Monday, 3/8) - eigenanalysis of populations
+
+- (continued from Day 6)
+
+Day 8 (Wednesday, 3/10) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
     General behaviors for more-than-one-dimensional systems:
     using locally linear approximations to understand
     the local behavior of systems.
 
-Day 8 (Wednesday, 3/10) - Modeling in SLiM
+Day 9 (Thursday, 3/12) - Modeling in SLiM
 
-: How to use [SLiM](https://messerlab.org/slim/) for simulations.
+: A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
 
-Day 9 (Friday, 3/12) - spatial demographics
-
-: How to implement a spatial model in SLiM.
-
-Extra topic (perhaps merged above) - species interactions
-
-: Species interactions in SLiM: predator-prey models
-
-[Here](notebooks/2019/schedule_2019.html) are notebooks from a previous time this course was taught.
 
 ## Prerequisites:
 
