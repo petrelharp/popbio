@@ -69,12 +69,13 @@ Day 5 (Wednesday, 3/3) - More on species interactions
 Day 6 (Friday, 3/5) - linear algebra and stage-structured models.
 
 : Linear algebra to concisely describe stage-structured linear population models;
-    using eigenvalues and eigenvectors to completely
-    understand stage-structured population models.
 
 - [notebook](notebooks/structured_populations.ipynb)
 
 Day 7 (Monday, 3/8) - eigenanalysis of populations
+
+: Using eigenvalues and eigenvectors to
+    understand stage-structured population models.
 
 - (continued from Day 6)
 
@@ -85,7 +86,9 @@ Day 8 (Wednesday, 3/10) - local analysis; equilibria and stability
     using locally linear approximations to understand
     the local behavior of systems.
 
-Day 9 (Thursday, 3/12) - Modeling in SLiM
+- [notebook](notebooks/nonlinear_systems.ipynb)
+
+Day 9 (Friday, 3/12) - Modeling in SLiM
 
 : A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
 
