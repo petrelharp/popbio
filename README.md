@@ -92,6 +92,8 @@ Day 9 (Friday, 3/12) - Modeling in SLiM
 
 : A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
 
+- [notebook](notebooks/slim_intro.ipynb)
+- [notebook](notebooks/space_with_slim.ipynb)
 
 ## Prerequisites:
 
