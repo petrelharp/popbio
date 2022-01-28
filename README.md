@@ -102,7 +102,7 @@ and either have some experience with programming or be ready to jump in with bot
 
 ## Inclusion and accessibility
 
-I would like to know your preferred pronouns and name,
+I would like to know your pronouns and name,
 especially if it differs from the class roster.
 I take seriously my responsibility to create inclusive learning environments.
 Please notify me if there are aspects of the instruction or design of this
@@ -111,7 +111,6 @@ to contact the Accessible Education Center in 164 Oregon Hall at 541-346-1155
 or uoaec@uoregon.edu.
 
 I am committed to making our classroom an inclusive and respectful learning space.
-Being respectful includes using preferred pronouns for your classmates.
 Your classmates come from a diverse set of backgrounds and experiences;
 please avoid assumptions or stereotypes, and aim for inclusivity.
 Let us know if there are classroom dynamics that impede your (or someone else’s) full engagement. 
