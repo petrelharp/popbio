@@ -32,7 +32,7 @@ or by appointment, 270 Onyx Bridge.
 
 ## Schedule:
 
-Day 1 (Monday, 2/22) - individual-based models
+Day 1 (Friday, 1/27) - individual-based models
 
 : Building and visualizing individual-based models; finding means and variances;
     differential equation limits.
@@ -40,46 +40,46 @@ Day 1 (Monday, 2/22) - individual-based models
 
 - [notebook](notebooks/individual_models.ipynb)
 
-Day 2 (Wednesday, 2/24) - taking the limit with one-dimensional systems
+Day 2 (Monday, 1/31) - taking the limit with one-dimensional systems
 
 : The (deterministic) logistic model: stability, cycles, and chaos.
 
 - (continued from Day 1)
 
-Day 3 (Friday, 2/26) - Differential equations, and higher dimensions
+Day 3 (Wednesday, 2/2) - Differential equations, and higher dimensions
 
 : Building and visualizing individual-based models: more variables.
     Example: Lotka-Volterra dynamics
 
 - [notebook](notebooks/diff_eqns.ipynb)
 
-Day 4 (Monday, 3/1) - multidimensional model building
+Day 4 (Friday, 2/4) - multidimensional model building
 
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
 - [notebook](notebooks/species_interactions.ipynb)
 
-Day 5 (Wednesday, 3/3) - More on species interactions
+Day 5 (Monday, 2/7) - More on species interactions
 
 : Building a SI model, introduction to juvenile-adult model.
 
 - (continued from Day 4)
 
-Day 6 (Friday, 3/5) - linear algebra and stage-structured models.
+Day 6 (Wednesday, 2/9) - linear algebra and stage-structured models.
 
 : Linear algebra to concisely describe stage-structured linear population models;
 
 - [notebook](notebooks/structured_populations.ipynb)
 
-Day 7 (Monday, 3/8) - eigenanalysis of populations
+Day 7 (Friday, 2/11) - eigenanalysis of populations
 
 : Using eigenvalues and eigenvectors to
     understand stage-structured population models.
 
 - (continued from Day 6)
 
-Day 8 (Wednesday, 3/10) - local analysis; equilibria and stability
+Day 8 (Monday, 2/14) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
     General behaviors for more-than-one-dimensional systems:
@@ -88,7 +88,7 @@ Day 8 (Wednesday, 3/10) - local analysis; equilibria and stability
 
 - [notebook](notebooks/nonlinear_systems.ipynb)
 
-Day 9 (Friday, 3/12) - Modeling in SLiM
+Day 9 (Wednesday, 2/14) - Modeling in SLiM
 
 : A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
 
