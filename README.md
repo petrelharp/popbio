@@ -51,12 +51,14 @@ Day 3 (Wednesday, 2/2) - Differential equations, and higher dimensions
 : Building and visualizing individual-based models: more variables.
     Example: Lotka-Volterra dynamics
 
+- [notebook](notebooks/diff_eqns.ipynb)
 
 Day 4 (Friday, 2/4) - multidimensional model building
 
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
+- [notebook](notebooks/species_interactions.ipynb)
 
 Day 5 (Monday, 2/7) - More on species interactions
 
