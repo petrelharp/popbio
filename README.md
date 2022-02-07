@@ -64,7 +64,8 @@ Day 5 (Monday, 2/7) - More on species interactions
 
 : Building a SI model, introduction to juvenile-adult model.
 
-- (continued from Day 4)
+- (continued from Day 4 and:)
+- [notebook](notebooks/structured_populations.ipynb)
 
 Day 6 (Wednesday, 2/9) - linear algebra and stage-structured models.
 
