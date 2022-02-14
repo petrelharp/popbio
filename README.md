@@ -86,6 +86,7 @@ Day 8 (Monday, 2/14) - local analysis; equilibria and stability
     using locally linear approximations to understand
     the local behavior of systems.
 
+- [notebook](notebooks/nonlinear_systems.ipynb)
 
 Day 9 (Wednesday, 2/14) - Modeling in SLiM
 
