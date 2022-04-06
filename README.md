@@ -39,6 +39,7 @@ Day 1 (Friday, 1/27) - individual-based models
     Example: exponential, logistic population growth.
 
 - [notebook](notebooks/individual_models.ipynb)
+- [html](notebooks/individual_models.html)
 
 Day 2 (Monday, 1/31) - taking the limit with one-dimensional systems
 
@@ -52,6 +53,7 @@ Day 3 (Wednesday, 2/2) - Differential equations, and higher dimensions
     Example: Lotka-Volterra dynamics
 
 - [notebook](notebooks/diff_eqns.ipynb)
+- [html](notebooks/diff_eqns.html)
 
 Day 4 (Friday, 2/4) - multidimensional model building
 
@@ -59,6 +61,7 @@ Day 4 (Friday, 2/4) - multidimensional model building
     Example: SI (susceptible-infected) models.
 
 - [notebook](notebooks/species_interactions.ipynb)
+- [html](notebooks/species_interactions.html)
 
 Day 5 (Monday, 2/7) - More on species interactions
 
@@ -71,6 +74,7 @@ Day 6 (Wednesday, 2/9) - linear algebra and stage-structured models.
 : Linear algebra to concisely describe stage-structured linear population models;
 
 - [notebook](notebooks/structured_populations.ipynb)
+- [html](notebooks/structured_populations.html)
 
 Day 7 (Friday, 2/11) - eigenanalysis of populations
 
@@ -87,12 +91,14 @@ Day 8 (Monday, 2/14) - local analysis; equilibria and stability
     the local behavior of systems.
 
 - [notebook](notebooks/nonlinear_systems.ipynb)
+- [html](notebooks/nonlinear_systems.html)
 
 Day 9 (Wednesday, 2/14) - Modeling in SLiM
 
 : A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
 
 - [notebook](notebooks/slim_intro.ipynb)
+- [html](notebooks/slim_intro.html)
 
 ## Prerequisites:
 
