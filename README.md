@@ -32,7 +32,7 @@ or by appointment, 270 Onyx Bridge.
 
 ## Schedule:
 
-Day 1 (Friday, 1/27) - individual-based models
+Day 1 (Wednesday, 2/1) - individual-based models
 
 : Building and visualizing individual-based models; finding means and variances;
     differential equation limits.
@@ -41,64 +41,85 @@ Day 1 (Friday, 1/27) - individual-based models
 - [notebook](notebooks/individual_models.ipynb)
 - [html](notebooks/individual_models.html)
 
-Day 2 (Monday, 1/31) - taking the limit with one-dimensional systems
+Day 2 (Friday, 2/3) - taking the limit with one-dimensional systems
 
 : The (deterministic) logistic model: stability, cycles, and chaos.
 
+<!--
 - (continued from Day 1)
+-->
 
-Day 3 (Wednesday, 2/2) - Differential equations, and higher dimensions
+Day 3 (Monday, 2/6) - Differential equations, and higher dimensions
 
 : Building and visualizing individual-based models: more variables.
     Example: Lotka-Volterra dynamics
 
+<!--
 - [notebook](notebooks/diff_eqns.ipynb)
 - [html](notebooks/diff_eqns.html)
+-->
 
-Day 4 (Friday, 2/4) - multidimensional model building
+Day 4 (Wednesday, 2/8) - multidimensional model building
 
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
+<!--
 - [notebook](notebooks/species_interactions.ipynb)
 - [html](notebooks/species_interactions.html)
+-->
 
-Day 5 (Monday, 2/7) - More on species interactions
+Day 5 (Friday, 2/10) - More on species interactions
 
 : Building a SI model, introduction to juvenile-adult model.
 
+<!--
 - (continued from Day 4 and:)
+-->
 
-Day 6 (Wednesday, 2/9) - linear algebra and stage-structured models.
+Day 6 (Friday, 2/13) - linear algebra and stage-structured models.
 
 : Linear algebra to concisely describe stage-structured linear population models;
 
+<!--
 - [notebook](notebooks/structured_populations.ipynb)
 - [html](notebooks/structured_populations.html)
+-->
 
-Day 7 (Friday, 2/11) - eigenanalysis of populations
+Day 7 (Wednesday, 2/15) - eigenanalysis of populations
 
 : Using eigenvalues and eigenvectors to
     understand stage-structured population models.
 
+<!--
 - (continued from Day 6)
+-->
 
-Day 8 (Monday, 2/14) - local analysis; equilibria and stability
+Day 8 (Friday, 2/17) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
     General behaviors for more-than-one-dimensional systems:
     using locally linear approximations to understand
     the local behavior of systems.
 
+<!--
 - [notebook](notebooks/nonlinear_systems.ipynb)
 - [html](notebooks/nonlinear_systems.html)
+-->
 
-Day 9 (Wednesday, 2/14) - Modeling in SLiM
+Day 9 (Monday, 2/18) - Modeling in SLiM
 
 : A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
 
+<!--
 - [notebook](notebooks/slim_intro.ipynb)
 - [html](notebooks/slim_intro.html)
+-->
+
+Day 10 (Wednesday, 2/20) - Popgen in SLiM
+
+: A quick introduction to population genetics in [SLiM](https://messerlab.org/slim/).
+
 
 ## Prerequisites:
 
