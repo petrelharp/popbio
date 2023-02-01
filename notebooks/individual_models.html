@@ -14603,22 +14603,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="kn">import</span> <span class="nn">matplotlib</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">default_rng</span><span class="p">(</span><span class="n">seed</span><span class="o">=</span><span class="mi">123</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># setup: has to be in a separate cell for some reason</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
 </pre></div>
 
@@ -14727,7 +14711,7 @@ So,</p>
 <ol>
 <li>Each individual produces a random, Poisson number of offspring, with mean $\lambda$, and then</li>
 <li>each adult survives with probability $p$ (or else, dies), while</li>
-<li>each new offspring survives with probability $1-N/K$, if the number of surviving adults is $N$.</li>
+<li>each new offspring survives with probability $1-N/K$, if the number of adults was $N$.</li>
 <li>Every individual does this <em>independently</em> of everything else.</li>
 </ol>
 <p>This is (a stochastic version of) the <strong>logistic model</strong> of population growth,
@@ -14755,7 +14739,7 @@ with fecundity/recruitment/juvenile mortality regulation.</p>
     <span class="n">births</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="p">,</span> <span class="n">N</span><span class="p">)</span>
     <span class="n">survivors</span> <span class="o">=</span> <span class="p">(</span><span class="n">rng</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="n">N</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">p</span><span class="p">)</span>
     <span class="n">num_survivors</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">survivors</span><span class="p">)</span>
-    <span class="n">surviving_births</span> <span class="o">=</span> <span class="p">(</span><span class="n">rng</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="n">births</span><span class="p">))</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">num_survivors</span><span class="o">/</span><span class="n">K</span><span class="p">)</span>
+    <span class="n">surviving_births</span> <span class="o">=</span> <span class="p">(</span><span class="n">rng</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="nb">sum</span><span class="p">(</span><span class="n">births</span><span class="p">))</span> <span class="o">&lt;</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">N</span><span class="o">/</span><span class="n">K</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">num_survivors</span> <span class="o">+</span> <span class="nb">sum</span><span class="p">(</span><span class="n">surviving_births</span><span class="p">)</span>
 
 <span class="c1"># run five simulations</span>
@@ -14832,7 +14816,7 @@ then $M$ is Poisson($\lambda q$).</p>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">logistic_gen</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">lam</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">K</span><span class="p">):</span>
     <span class="c1"># N can be a vector of current simulation states</span>
     <span class="n">num_survivors</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">N</span><span class="p">))</span>
-    <span class="k">return</span> <span class="p">(</span><span class="n">rng</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span> <span class="o">*</span> <span class="n">N</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">fmax</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">num_survivors</span> <span class="o">/</span> <span class="n">K</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">N</span><span class="p">))</span> 
+    <span class="k">return</span> <span class="p">(</span><span class="n">rng</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span> <span class="o">*</span> <span class="n">N</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">fmax</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">N</span> <span class="o">/</span> <span class="n">K</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">N</span><span class="p">))</span> 
             <span class="o">+</span> <span class="n">num_survivors</span><span class="p">)</span>
 </pre></div>
 
@@ -14857,18 +14841,6 @@ then $M$ is Poisson($\lambda q$).</p>
 </div>
 </div>
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Homework-2-option-1:">Homework 2 option 1:<a class="anchor-link" href="#Homework-2-option-1:">&#182;</a></h1><p>Change the argument below to be correct (accounting for our change to the life cycle).</p>
-
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14942,7 +14914,7 @@ If this second solution is positive, then there's a <em>positive equilibrium</em
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">logistic_equil</span><span class="p">(</span><span class="n">lam</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">K</span><span class="p">):</span>
     <span class="c1"># return predicted equilibrium</span>
-    <span class="k">return</span> <span class="n">K</span> <span class="o">*</span> <span class="p">(</span><span class="n">lam</span> <span class="o">+</span> <span class="n">p</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">lam</span> <span class="o">*</span> <span class="n">p</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">K</span> <span class="o">*</span> <span class="p">(</span><span class="n">lam</span> <span class="o">+</span> <span class="n">p</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="n">lam</span>
 </pre></div>
 
      </div>
@@ -14992,30 +14964,6 @@ If this second solution is positive, then there's a <em>positive equilibrium</em
     <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">ngens</span><span class="p">):</span>
         <span class="n">N</span><span class="p">[</span><span class="n">t</span><span class="p">,</span> <span class="p">:]</span> <span class="o">=</span> <span class="n">gen_fn</span><span class="p">(</span><span class="n">N</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:],</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">N</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">kwargs</span><span class="p">)</span>
-    
-<span class="n">f</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;u&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">:</span> <span class="s2">&quot;abc&quot;</span><span class="p">}</span>
-<span class="n">f</span><span class="p">(</span><span class="n">u</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;abc&quot;</span><span class="p">)</span>
-
-<span class="n">f</span><span class="p">(</span><span class="o">**</span><span class="n">x</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15096,8 +15044,8 @@ and the fluctuations about the average are of order 10.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Homework-2-option-2:">Homework 2 option 2:<a class="anchor-link" href="#Homework-2-option-2:">&#182;</a></h1><p>The <strong>Ricker model</strong> replaces $1 - N/K$ with $\exp(-N/K)$.
-How similar is it? Simulate from it, solve for the equilibrium value, and check your answer with simulations.</p>
+<h1 id="Homework-2:">Homework 2:<a class="anchor-link" href="#Homework-2:">&#182;</a></h1><p>The <strong>Ricker model</strong> replaces $1 - N/K$ with $\exp(-N/K)$.
+How similar is it? Simulate from it, solve for the equilibrium population size with math, and check your answer with simulations.</p>
 
 </div>
 </div>
@@ -15203,10 +15151,10 @@ $$\begin{aligned}
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">&quot;lam&quot;</span> <span class="p">:</span> <span class="mf">2.5</span><span class="p">,</span>
     <span class="s2">&quot;p&quot;</span> <span class="p">:</span> <span class="mf">0.25</span><span class="p">,</span>
-    <span class="s2">&quot;K&quot;</span> <span class="p">:</span> <span class="mi">20000</span>
+    <span class="s2">&quot;K&quot;</span> <span class="p">:</span> <span class="mi">200</span>
 <span class="p">}</span>
 
-<span class="n">N</span> <span class="o">=</span> <span class="n">run_sim</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">37000</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span> <span class="n">gen_fn</span><span class="o">=</span><span class="n">logistic_gen</span><span class="p">,</span> <span class="n">ngens</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+<span class="n">N</span> <span class="o">=</span> <span class="n">run_sim</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">repeat</span><span class="p">(</span><span class="mi">370</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span> <span class="n">gen_fn</span><span class="o">=</span><span class="n">logistic_gen</span><span class="p">,</span> <span class="n">ngens</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
             <span class="o">**</span><span class="n">params</span><span class="p">)</span>
 <span class="n">equil</span> <span class="o">=</span> <span class="n">logistic_equil</span><span class="p">(</span><span class="o">**</span><span class="n">params</span><span class="p">)</span>
     
@@ -15215,22 +15163,6 @@ $$\begin{aligned}
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;time&quot;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;pop size&quot;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
