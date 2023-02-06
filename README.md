@@ -45,29 +45,23 @@ Day 2 (Friday, 2/3) - taking the limit with one-dimensional systems
 
 : The (deterministic) logistic model: stability, cycles, and chaos.
 
-<!--
 - (continued from Day 1)
--->
 
 Day 3 (Monday, 2/6) - Differential equations, and higher dimensions
 
 : Building and visualizing individual-based models: more variables.
     Example: Lotka-Volterra dynamics
 
-<!--
 - [notebook](notebooks/diff_eqns.ipynb)
 - [html](notebooks/diff_eqns.html)
--->
 
 Day 4 (Wednesday, 2/8) - multidimensional model building
 
 : Isoclines, and more on building multidimensional models.
     Example: SI (susceptible-infected) models.
 
-<!--
 - [notebook](notebooks/species_interactions.ipynb)
 - [html](notebooks/species_interactions.html)
--->
 
 Day 5 (Friday, 2/10) - More on species interactions
 
