@@ -76,40 +76,29 @@ Day 6 (Friday, 2/13) - linear algebra and stage-structured models.
 - [notebook](notebooks/structured_populations.ipynb)
 - [html](notebooks/structured_populations.html)
 
-Day 7 (Wednesday, 2/15) - eigenanalysis of populations
+Day 8 (Friday, 2/17) - eigenanalysis of populations
 
 : Using eigenvalues and eigenvectors to
     understand stage-structured population models.
 
-<!--
 - (continued from Day 6)
--->
 
-Day 8 (Friday, 2/17) - local analysis; equilibria and stability
+Day 9 (Monday, 2/20) - local analysis; equilibria and stability
 
 : Using information about fixed points to understand long-term behavior.
     General behaviors for more-than-one-dimensional systems:
     using locally linear approximations to understand
     the local behavior of systems.
 
-<!--
 - [notebook](notebooks/nonlinear_systems.ipynb)
 - [html](notebooks/nonlinear_systems.html)
--->
 
-Day 9 (Monday, 2/18) - Modeling in SLiM
+Day 10 (Wednesday, 2/22) - Simulations with SLiM
 
-: A quick introduction to [SLiM](https://messerlab.org/slim/) for simulations.
+: A quick introduction to [SLiM](https://messerlab.org/slim/).
 
-<!--
 - [notebook](notebooks/slim_intro.ipynb)
 - [html](notebooks/slim_intro.html)
--->
-
-Day 10 (Wednesday, 2/20) - Popgen in SLiM
-
-: A quick introduction to population genetics in [SLiM](https://messerlab.org/slim/).
-
 
 ## Prerequisites:
 
